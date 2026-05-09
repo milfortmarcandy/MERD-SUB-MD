@@ -55,7 +55,7 @@ pkg install git
 pkg install nodejs
 pkg install ffmpeg
 pkg install imagemagick
-git clone https://github.com/nazedev/hitori
+git clone https://github.com/milfortmarcandy/MERD-SUB-MD
 cd hitori
 npm install
 ```
@@ -276,7 +276,7 @@ This file is responsible for:
 License: [MIT](https://choosealicense.com/licenses/mit/)
 
 #### Support Me
-- [Saweria](https://saweria.co/naze)
+- [Saweria](https://whatsapp.com/channel/0029Vb6HWG34yltVtiuEu43w)
 
 ## Contributor
 
