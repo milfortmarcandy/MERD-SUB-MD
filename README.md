@@ -67,7 +67,7 @@ pkg install nodejs
 pkg install ffmpeg
 pkg install imagemagick
 git clone https://github.com/milfortmarcandy/MERD-SUB-MD
-cd hitori
+cd MERD-SUB-MD
 npm install
 ```
 [ RECOMMENDED INSTALL ON TERMUX ]
