@@ -17,7 +17,7 @@ global.author = 'MERD-SUB-MD'
 global.botname = 'MERD-SUB-MD'
 global.packname = 'MERD-SUB-MD'
 global.timezone = 'Haïti' // Ganti pakai command .settimezone
-global.locale = 'en' // Ganti pakai command .setlocale
+global.locale = 'fr' // Ganti pakai command .setlocale
 global.listprefix = ['+','!','.']
 
 global.listv = [
@@ -69,22 +69,22 @@ global.money = {
 }
 
 global.mess = {
-	key: "Apikey limit! Silahkan Upgrade: https://naze.biz.id",
-	owner: "Khusus Owner!",
-	admin: "Khusus Admin!",
-	botAdmin: "Bot harus Admin!",
-	onWa: "Nomor tersebut tidak terdaftar di WhatsApp!",
-	group: "Khusus Grup!",
-	private: "Khusus Private Chat!",
-	quoted: "Reply pesannya!",
-	limit: "Limit habis!",
-	prem: "Khusus Premium!",
-	text: "Masukkan teksnya!",
-	media: "Kirim medianya!",
-	wait: "Proses...",
-	fail: "Gagal!",
-	error: "Error!",
-	done: "Selesai!"
+        key: "Clé API limitée ! Veuillez mettre à niveau : https://naze.biz.id",
+        owner: "Réservé au propriétaire !",
+        admin: "Réservé aux administrateurs !",
+        botAdmin: "Le bot doit être administrateur !",
+        onWa: "Ce numéro n'est pas enregistré sur WhatsApp !",
+        group: "Commande réservée aux groupes !",
+        private: "Commande réservée aux discussions privées !",
+        quoted: "Veuillez répondre au message !",
+        limit: "Limite épuisée !",
+        prem: "Réservé aux utilisateurs premium !",
+        text: "Veuillez entrer un texte !",
+        media: "Veuillez envoyer un média !",
+        wait: "Traitement en cours...",
+        fail: "Échec de l'opération !",
+        error: "Une erreur est survenue !",
+        done: "Terminé avec succès !"
 }
 
 global.APIs = {
