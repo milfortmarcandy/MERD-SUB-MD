@@ -1936,7 +1936,7 @@ Select Bot Settings:
 				m.reply(respon)
 			}
 			break
-			case 'speedtest': case 'speed': {
+			case 'vitesse': case 'speedtest': case 'speed': {
 				m.reply('Testing Speed...')
 				let cp = require('child_process')
 				let { promisify } = require('util')
@@ -4104,7 +4104,82 @@ Select Bot Settings:
 			break
 			
 			// Menu
-			case 'menu': {
+			case 'help':                                                                                                          case 'aide':                                                                                                          case 'menu': {                                                                                                       >    {
+        buttonId: `${prefix}menu`,                                                                                            buttonText: { displayText: "📜 main Menu" },
+        type: 1
+    },                                                                                                                    {
+        buttonId: `${prefix}botmenu`,                                                                                         buttonText: { displayText: "🤖 Bot Menu" },
+        type: 1                                                                                                           },
+    {                                                                                                                         buttonId: `${prefix}groupmenu`,                                                                                       buttonText: { displayText: "👥 Group Menu" },
+        type: 1
+    },                                                                                                                    {
+        buttonId: `${prefix}searchmenu`,
+        buttonText: { displayText: "🔎 Search Menu" },                                                                        type: 1
+    },
+    {
+        buttonId: `${prefix}downloadmenu`,
+        buttonText: { displayText: "⬇️ Download Menu" },
+        type: 1
+    },
+    {
+        buttonId: `${prefix}quotesmenu`,
+        buttonText: { displayText: "💬 Quotes Menu" },
+        type: 1
+    },
+    {
+        buttonId: `${prefix}toolsmenu`,
+        buttonText: { displayText: "🛠️ Tools Menu" },
+        type: 1
+    },
+    {
+        buttonId: `${prefix}aimenu`,
+        buttonText: { displayText: "🧠 AI Menu" },
+        type: 1
+    },
+    {
+        buttonId: `${prefix}animemenu`,
+        buttonText: { displayText: "🎌 Anime Menu" },
+        type: 1
+    },
+    {
+        buttonId: `${prefix}gamemenu`,
+        buttonText: { displayText: "🎮 Game Menu" },
+        type: 1
+    },
+    {
+        buttonId: `${prefix}funmenu`,
+        buttonText: { displayText: "🎭 Fun Menu" },
+        type: 1
+    },
+    {
+        buttonId: `${prefix}randommenu`,
+        buttonText: { displayText: "🎲 Random Menu" },
+        type: 1
+    },
+    {
+        buttonId: `${prefix}stalkermenu`,
+        buttonText: { displayText: "🕵️ Stalker Menu" },
+        type: 1
+    },
+    {
+        buttonId: `${prefix}ownermenu`,
+        buttonText: { displayText: "👑 Owner Menu" },
+        type: 1
+    }
+]
+
+const buttonMessage = {                                                                                              >
+        caption: `🤖 *${set?.botname || 'Bot'} HELP MENU*\n\nChoisis une catégorie 👇`,
+        footer: `Powered by ${author}`,
+        buttons: buttons,
+        headerType: 4
+    }
+
+    await naze.sendMessage(m.chat, buttonMessage, { quoted: m })
+}
+break
+
+    case 'menuinfo': {
 				if (args[0] == 'set') {
 					if (!isCreator) return m.reply(mess.owner)
 					if (['1','2','3'].includes(args[1])) {
