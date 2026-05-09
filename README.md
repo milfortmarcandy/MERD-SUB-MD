@@ -12,6 +12,13 @@
 
 This script is created by [Nazedev](https://github.com/nazedev) using Node.js and the [WhiskeySocket/Baileys](https://github.com/WhiskeySockets/Baileys) library. The script is currently in the development phase (BETA), so there may still be some errors that can be ignored. If errors persist even after debugging, please contact the owner for assistance. ~ By Naze
 
+#### ⚡ Click to Chat (Neon Mode)
+
+<a href="https://wa.me/50934329984?text=bonjour%20monsieur%20☑️☑️">
+  <img src="https://img.shields.io/badge/CLICK%20TO%20CHAT-00ff99?style=for-the-badge&logo=whatsapp&logoColor=black&labelColor=0d0d0d&color=00ff99" 
+       alt="Click to Chat Neon WhatsApp"/>
+</a>
+
 #### 💬 WhatsApp Support Group  
 [![WhatsApp Group](https://img.shields.io/badge/Join%20Support%20Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/GarRbAo0StZJKK0exBdjwl?mode=gi_t)
 
