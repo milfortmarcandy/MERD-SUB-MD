@@ -12,12 +12,58 @@
 
 This script is created by [Nazedev](https://github.com/nazedev) using Node.js and the [WhiskeySocket/Baileys](https://github.com/WhiskeySockets/Baileys) library. The script is currently in the development phase (BETA), so there may still be some errors that can be ignored. If errors persist even after debugging, please contact the owner for assistance. ~ By Naze
 
-#### ⚡ Click to Chat (Neon Mode)
+#### ⚡ CLICK TO CHAT
 
-<a href="https://wa.me/50934329984?text=bonjour%20monsieur%20☑️☑️">
-  <img src="https://img.shields.io/badge/CLICK%20TO%20CHAT-00ff99?style=for-the-badge&logo=whatsapp&logoColor=black&labelColor=0d0d0d&color=00ff99" 
-       alt="Click to Chat Neon WhatsApp"/>
+<a href="https://wa.me/50934329984?text=bonjour%20monsieur%20𝗛4𝗖𝗞𝗠𝗔𝗥𝗖₪𝗗𝗘𝗩🐍">
+
+<svg width="320" height="70" viewBox="0 0 320 70" xmlns="http://www.w3.org/2000/svg">
+
+  <defs>
+    <linearGradient id="neon" x1="0" x2="1">
+      <stop offset="0%" stop-color="#00ff99"/>
+      <stop offset="50%" stop-color="#00e5ff"/>
+      <stop offset="100%" stop-color="#ff00ff"/>
+    </linearGradient>
+
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3.5" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect x="5" y="10" rx="18" ry="18" width="310" height="50"
+        fill="#0d0d0d"
+        stroke="url(#neon)"
+        stroke-width="2"
+        filter="url(#glow)">
+    
+    <animate attributeName="stroke-width"
+             values="2;4;2"
+             dur="1.5s"
+             repeatCount="indefinite"/>
+  </rect>
+
+  <text x="160" y="42" text-anchor="middle"
+        fill="url(#neon)"
+        font-size="16"
+        font-family="Arial Black"
+        letter-spacing="2">
+
+    CLICK TO CHAT
+
+    <animate attributeName="opacity"
+             values="1;0.6;1"
+             dur="1.2s"
+             repeatCount="indefinite"/>
+  </text>
+
+</svg>
+
 </a>
+
 
 #### 💬 WhatsApp Support Group  
 [![WhatsApp Group](https://img.shields.io/badge/Join%20Support%20Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/GarRbAo0StZJKK0exBdjwl?mode=gi_t)
