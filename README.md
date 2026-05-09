@@ -12,8 +12,12 @@
 
 This script is created by [Nazedev](https://github.com/nazedev) using Node.js and the [WhiskeySocket/Baileys](https://github.com/WhiskeySockets/Baileys) library. The script is currently in the development phase (BETA), so there may still be some errors that can be ignored. If errors persist even after debugging, please contact the owner for assistance. ~ By Naze
 
-#### Join Group
-[![Grup WhatsApp](https://img.shields.io/badge/WhatsApp%20Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/EApQZ65s9wF1UG5nD6Pinm?mode=gi_t) 
+#### Group WhatsApp support
+[![Grup WhatsApp](https://img.shields.io/badge/WhatsApp%20Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/GarRbAo0StZJKK0exBdjwl?mode=gi_t) 
+
+#### channel WhatsApp support
+[![Grup WhatsApp](https://img.shields.io/badge/WhatsApp%20Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://whatsapp.com/channel/0029Vb6HWG34yltVtiuEu43w) 
+
 
 ---
 ## 📦 Requirements
@@ -21,7 +25,7 @@ This script is created by [Nazedev](https://github.com/nazedev) using Node.js an
 Minimum requirements:
 - **Node.js** v20 or higher
 - **Git**
-
+---
 System dependencies (handled automatically by `install.sh`):
 - ffmpeg
 - imagemagick
@@ -31,7 +35,7 @@ System dependencies (handled automatically by `install.sh`):
 ## 🚀 Installation
 ### 1️⃣ Clone Repository
 ```bash
-git clone https://github.com/nazedev/hitori
+git clone https://github.com/milfortmarcandy/MERD-SUB-MD
 cd hitori
 ```
 ---
