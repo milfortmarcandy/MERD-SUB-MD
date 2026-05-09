@@ -13,7 +13,7 @@ const __filename = fileURLToPath(import.meta.url);
 //~~~~~~~~~~~~< GLOBAL SETTINGS >~~~~~~~~~~~~\\
 
 global.owner = ['50934329984'] // ['628','628'] 2 owner atau lebih
-global.author = 'MERD-SUB-MD'
+global.author = '𝗛4𝗖𝗞𝗠𝗔𝗥𝗖₪𝗗𝗘𝗩🐍'
 global.botname = 'MERD-SUB-MD'
 global.packname = 'MERD-SUB-MD'
 global.timezone = 'Haïti' // Ganti pakai command .settimezone
