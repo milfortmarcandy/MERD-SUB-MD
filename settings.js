@@ -12,15 +12,30 @@ const __filename = fileURLToPath(import.meta.url);
 
 //~~~~~~~~~~~~< GLOBAL SETTINGS >~~~~~~~~~~~~\\
 
-global.owner = ['6282113821188'] // ['628','628'] 2 owner atau lebih
-global.author = 'Nazedev'
-global.botname = 'Hitori Bot'
-global.packname = 'Bot WhatsApp'
-global.timezone = 'Asia/Jakarta' // Ganti pakai command .settimezone
+global.owner = ['50934329984'] // ['628','628'] 2 owner atau lebih
+global.author = 'MERD-SUB-MD'
+global.botname = 'MERD-SUB-MD'
+global.packname = 'MERD-SUB-MD'
+global.timezone = 'Haïti' // Ganti pakai command .settimezone
 global.locale = 'en' // Ganti pakai command .setlocale
 global.listprefix = ['+','!','.']
 
-global.listv = ['•','●','■','✿','▲','➩','➢','➣','➤','✦','✧','△','❀','○','□','♤','♡','◇','♧','々','〆']
+global.listv = [
+  '✦', '✧', '★', '☆', '✪', '✯', '✰',
+  '❖', '✿', '❀', '❁', '❃', '❂',
+  '➤', '➣', '➢', '➩', '➪', '➫', '➬',
+  '➭', '➮', '➯', '➱',
+  '⟡', '⟢', '⟣', '⟤', '⟥',
+  '◆', '◇', '◈', '⬟', '⬢',
+  '■', '□', '▣', '▢',
+  '●', '○', '◉', '◎',
+  '▲', '△', '▼', '▽',
+  '♠', '♣', '♥', '♦',
+  '✚', '✛', '✜', '✝',
+  '〆', '々', 'ツ', 'ッ',
+  '⚡', '🔥', '💎', '🌟'
+]
+
 global.tempatDB = 'database.json' // Taruh url mongodb di sini jika menggunakan mongodb. Format : 'mongodb+srv://...'
 global.tempatStore = 'baileys_store.json' // Taruh url mongodb di sini jika menggunakan mongodb. Format : 'mongodb+srv://...'
 global.pairing_code = true
@@ -38,7 +53,7 @@ global.my = {
 	yt: 'https://youtube.com/c/Nazedev',
 	gh: 'https://github.com/nazedev',
 	gc: 'https://chat.whatsapp.com/DPUC3uuqYZI9FNLdgtMp4n?mode=gi_t',
-	ch: '120363250409960161@newsletter',
+	ch: '120363419296446108@newsletter',
 }
 
 global.limit = {
