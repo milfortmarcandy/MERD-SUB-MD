@@ -135,7 +135,7 @@ const naze = async (naze, m, msg, store) => {
 		const locale_day = moment.tz(global.timezone).locale(global.locale).format('dddd');
 		const date = moment.tz(global.timezone).locale(global.locale).format('DD/MM/YYYY');
 		const date_time = moment.tz(global.timezone).locale(global.locale).format('HH:mm:ss');
-		const ucapanWaktu = date_time < '05:00:00' ? 'Selamat Pagi 🌉' : date_time < '11:00:00' ? 'Selamat Pagi 🌄' : date_time < '15:00:00' ? 'Selamat Siang 🏙' : date_time < '18:00:00' ? 'Selamat Sore 🌅' : date_time < '19:00:00' ? 'Selamat Sore 🌃' : date_time < '23:59:00' ? 'Selamat Malam 🌌' : 'Selamat Malam 🌌';
+	 const ucapanWaktu = date_time < '05:00:00' ? 'Bonjour 🌉' : date_time < '11:00:00' ? 'Bonjour 🌄' : date_time < '15:00:00' ? 'Bon après-midi 🏙' : date_time < '18:00:00' ? 'Bonne fin d’après-midi 🌅' : date_time < '19:00:00' ? 'Bonne fin d’après-midi 🌃' : date_time < '18:00:00' ? 'Bonsoir 🌆' : 'Bonne nuit 🌌'; 
 		const almost = 0.66
 		const time = Date.now()
 		const time_now = new Date()
