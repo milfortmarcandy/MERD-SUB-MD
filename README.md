@@ -18,7 +18,7 @@ This script is created by [Nazedev](https://github.com/nazedev) using Node.js an
 
 #### ⚡ CLICK TO CHAT
 
-[![WhatsApp](https://img.shields.io/badge/CLICK%20TO%20CHAT-00ff99?style=for-the-badge&logo=whatsapp&logoColor=black&labelColor=000000)](https://wa.me/50934329984?text=bonjour%20monsieur%20☑️☑️)
+[![WhatsApp](https://img.shields.io/badge/CLICK%20TO%20CHAT-00ff99?style=for-the-badge&logo=whatsapp&logoColor=black&labelColor=000000)](https://wa.me/50934329984?text=bonjour%20monsieur%20𝗛4𝗖𝗞𝗠𝗔𝗥𝗖₪𝗗𝗘𝗩🐍)
 
 #### 💬 WhatsApp Support Group  
 [![WhatsApp Group](https://img.shields.io/badge/Join%20Support%20Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/GarRbAo0StZJKK0exBdjwl?mode=gi_t)
