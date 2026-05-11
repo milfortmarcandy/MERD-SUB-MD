@@ -43,7 +43,7 @@ System dependencies (handled automatically by `install.sh`):
 ### 1️⃣ Clone Repository
 ```bash
 git clone https://github.com/milfortmarcandy/MERD-SUB-MD
-cd hitori
+cd MERD-SUB-MD
 ```
 ---
 ### 2️⃣ Automatic Installation (Recommended)
@@ -151,13 +151,13 @@ All main configurations are located in:
 
 #### Owner Number
 ```js
-global.owner = ['628xxxxxxxxxx']
+global.owner = ['509xxxxxxxxxx']
 ```
 
 #### Bot Identity
 ```js
-global.botname = 'Hitori Bot'
-global.author = 'Nazedev'
+global.botname = 'MERD-SUB-MD'
+global.author = '𝗛4𝗖𝗞𝗠𝗔𝗥𝗖₪𝗗𝗘𝗩🐍'
 ```
 
 #### Command Prefix
@@ -174,7 +174,7 @@ global.money.free = 10000
 #### Pairing Code / Bot Number
 ```js
 global.pairing_code = true
-global.number_bot = '628xxxxxxxxxx'
+global.number_bot = '509xxxxxxxxxx'
 ```
 
 > Any change in [settings.js](https://github.com/nazedev/hitori/blob/master/settings.js) will be **auto-reloaded** without restarting the bot.
@@ -185,7 +185,7 @@ global.number_bot = '628xxxxxxxxxx'
 
 All bot features are implemented in:
 
-📁 **[naze.js](https://github.com/nazedev/hitori/blob/master/naze.js)**
+📁 **[naze.js](https://github.com/milfortmarcandy/MERD-SUB-MD/blob/master/naze.js)**
 
 Look for the **[switch (command)](https://github.com/nazedev/hitori/blob/61052a01ea8e8975a99f0db7f5d40bad5ee39a5b/naze.js#L742)** section.
 
